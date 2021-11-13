@@ -1968,7 +1968,7 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next@12.0.3:
+next@^12.0.3:
   version "12.0.3"
   resolved "https://registry.yarnpkg.com/next/-/next-12.0.3.tgz#325732ceb4193306a9a31912815fc570d1a66641"
   integrity sha512-GGdhTBcerdMZbitrO67IVetmB+AHa2X69xrkXKClUT8SRu8pEVto/2QMSnfI+uYc5czCUWPsVtVY3aMoMRMaCA==
@@ -2379,14 +2379,14 @@ raw-body@2.4.1:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
-react-dom@17.0.2:
-  version "17.0.2"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-17.0.2.tgz#ecffb6845e3ad8dbfcdc498f0d0a939736502c23"
-  integrity sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA==
+react-dom@^18.0.0-alpha-cb11155c8-20211112:
+  version "18.0.0-alpha-cb11155c8-20211112"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-18.0.0-alpha-cb11155c8-20211112.tgz#2a0873a157758eb4dfe5cce0acd8238635a422f6"
+  integrity sha512-LkI+PPT837+C+Zu7ECYbzscJenfq17ZukoYif++RnwtgI7AZ6xNnrKF0++i7shOcxVfMQ3UD31rXDuyABX9BQA==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
-    scheduler "^0.20.2"
+    scheduler "0.21.0-alpha-cb11155c8-20211112"
 
 react-is@17.0.2:
   version "17.0.2"
@@ -2403,10 +2403,10 @@ react-refresh@0.8.3:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.3.tgz#721d4657672d400c5e3c75d063c4a85fb2d5d68f"
   integrity sha512-X8jZHc7nCMjaCqoU+V2I0cOhNW+QMBwSUkeXnTi8IPe6zaRWfn60ZzvFDZqWPfmSJfjub7dDW1SP0jaHWLu/hg==
 
-react@17.0.2:
-  version "17.0.2"
-  resolved "https://registry.yarnpkg.com/react/-/react-17.0.2.tgz#d0b5cc516d29eb3eee383f75b62864cfb6800037"
-  integrity sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==
+react@^18.0.0-alpha-cb11155c8-20211112:
+  version "18.0.0-alpha-cb11155c8-20211112"
+  resolved "https://registry.yarnpkg.com/react/-/react-18.0.0-alpha-cb11155c8-20211112.tgz#4ff08d0d5efe17f084773dbd572e080698c0179c"
+  integrity sha512-dZH1UI66WIJQanQW052jeonU6miTD69B+Yij3HhKqsa8yZIbgiSt7l8jckcpZksFhzQSHINJmYFp/yz4DTwh9w==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
@@ -2518,10 +2518,10 @@ safe-buffer@~5.1.1:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-scheduler@^0.20.2:
-  version "0.20.2"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.20.2.tgz#4baee39436e34aa93b4874bddcbf0fe8b8b50e91"
-  integrity sha512-2eWfGgAqqWFGqtdMmcL5zCMK1U8KlXv8SQFGglL3CEtd0aDVDWgeF/YoCmvln55m5zSk3J/20hTaSBeSObsQDQ==
+scheduler@0.21.0-alpha-cb11155c8-20211112:
+  version "0.21.0-alpha-cb11155c8-20211112"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.21.0-alpha-cb11155c8-20211112.tgz#80f648c9cdc3b03a5b8d39ecb26789647771a799"
+  integrity sha512-Tt40k0chfviau+lt9kT4VFToVJ8+CdkmmFg1A9hq2AE/mKjdcavsSdJZvVlOWFy+a3bUQlcSMq42F/b2NztJ5g==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
